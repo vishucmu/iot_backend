@@ -1,0 +1,116 @@
+FIELD1,FIELD2,FIELD3,Threat Actor,State Sponsored (Nation State),Idealogically Motivated (Hacktivist),Financially Motivated
+Action ID,Action Name,Action Mechanism,Action Category,Action Likelihood Score,Action Likelihood Score,Action Likelihood Score
+1,Access system storage,Collect and Analyze Information,Direct target exploration,0.95,0,0
+2,Port Scanning,Collect and Analyze Information,Direct target exploration,0.95,0,0
+3,Micro-probing (read device's internal memory- data- keys- or program code),Collect and Analyze Information,Direct target exploration,0.9,0,0
+4,RFID Tag tracking - tracing a tag through rogue readers,Collect and Analyze Information,Direct target exploration,0.33,0,0
+5,Obtain cryptographic keys from stolen/subverted node (e.g. Zigbee shared network key),Collect and Analyze Information,Direct target exploration,0.5,0,0
+6,Network traffic sniffing,Collect and Analyze Information,Interception / eavesdropping,0.75,0,0
+7,Keylogging,Collect and Analyze Information,Interception / eavesdropping,0.9,0,0
+8,Node or network topology discovery: Clock skewing,Collect and Analyze Information,Inference attacks,0.33,0,0
+9,Node or network topology discovery: Homing,Collect and Analyze Information,Inference attacks,0.33,0,0
+10,Side channel analysis of encrypted data: Timing analysis,Collect and Analyze Information,Inference attacks,0.33,0,0
+11,Side channel analysis of encrypted data: Power analysis,Collect and Analyze Information,Inference attacks,0.33,0,0
+12,Side channel analysis of encrypted data: Fault analysis,Collect and Analyze Information,Inference attacks,0.33,0,0
+13,Side channel analysis of encrypted data: Electromagnetic analysis,Collect and Analyze Information,Inference attacks,0.33,0,0
+14,Cryptanalysis - End encryption key being used: Known-plaintext attack,Collect and Analyze Information,Inference attacks,0.33,0,0
+15,Cryptanalysis - End encryption key being used: Chosen-plaintext attack,Collect and Analyze Information,Inference attacks,0.33,0,0
+16,Cryptanalysis - End encryption key being used: Chosen-ciphertext attack,Collect and Analyze Information,Inference attacks,0.33,0,0
+17,Cryptanalysis - End encryption key being used: Ciphertext-only attack,Collect and Analyze Information,Inference attacks,0.33,0,0
+18,User accounts footprinting,Collect and Analyze Information,Inference attacks,0.9,0,0
+19,Applications / services / processes footprinting,Collect and Analyze Information,Inference attacks,0.9,0,0
+20,Software/firmware reverse engineering,Collect and Analyze Information,Reverse Engineering,0.33,0,0
+21,Hardware reverse engineering (e.g. layout reconstruction),Collect and Analyze Information,Reverse Engineering,0.33,0,0
+22,Encryption Brute Forcing,Employ Probabilistic Techniques,Brute Force,0.33,0,0
+23,Password Brute Forcing,Employ Probabilistic Techniques,Brute Force,0.9,0,0
+24,Software fuzzing,Employ Probabilistic Techniques,Fuzzing,0.33,0,0
+25,Hardware fuzzing,Employ Probabilistic Techniques,Fuzzing,0.33,0,0
+26,Dictionary or list-based attack,Employ Probabilistic Techniques,Dictionary or list-based attack,0.9,0,0
+27,Signature Spoofing,Engage in Deceptive Interactions,Identity impersonation,0.5,0,0
+28,Man-in-the-middle - secretly relay and possibly alter communication between 2 entities/nodes,Engage in Deceptive Interactions,Identity impersonation,0.75,0,0
+29,RPL Rank attack - attacker changes rank value of node to attract child nodes and a large amount of traffic going towards root node,Engage in Deceptive Interactions,Identity impersonation,0.33,0,0
+30,Node replication (clone node) - existing node ID is copied to network- disrupting network performance,Engage in Deceptive Interactions,Identity impersonation,0.33,0,0
+31,Node spoofing (clone ID) - malicious node clones identity of another node in order to gain access to traffic going through or arriving at victim node,Engage in Deceptive Interactions,Identity impersonation,0.33,0,0
+32,Node injection (false node- impersonation) - physically deploy malicious node between nodes-controlling all data flow to and from nodes,Engage in Deceptive Interactions,Identity impersonation,0.33,0,0
+33,Sybil attack - malicious node uses several identities on same physical node- allowing malware to be propagated and large parts of network to be taken under control,Engage in Deceptive Interactions,Identity impersonation,0.33,0,0
+34,Spoofed- altered- or replayed routing information: Sinkhole attack,Engage in Deceptive Interactions,Advertise false information,0.33,0,0
+35,Spoofed- altered- or replayed routing information: Wormhole attack,Engage in Deceptive Interactions,Advertise false information,0.33,0,0
+36,Spoofed- altered- or replayed routing information: Create routing loop,Engage in Deceptive Interactions,Advertise false information,0.33,0,0
+37,Spoofed- altered- or replayed routing information: RPL network Version Attack,Engage in Deceptive Interactions,Advertise false information,0.33,0,0
+38,Spoofed- altered- or replayed routing information: RPL network Neighbor Attack,Engage in Deceptive Interactions,Advertise false information,0.33,0,0
+39,HELLO flood,Engage in Deceptive Interactions,Advertise false information,0.5,0,0
+40,Acknowledgement spoofng/flooding - spoofs acknowledgements- providing false information to neighboring nodes,Engage in Deceptive Interactions,Advertise false information,0.33,0,0
+41,Replay attack - original message is intercepted- recorded- and replayed to recipient at later time,Engage in Deceptive Interactions,Send false messages,0.5,0,0
+42,Message corruption - modification of message content,Engage in Deceptive Interactions,Send false messages,0.33,0,0
+43,Message fabrication: Fragmentation attack - attacker takes advantage of receiver waiting for all fragments to arrive and,Engage in Deceptive Interactions,Send false messages,0.33,0,0
+44,Message fabrication: De-synchronization - fake messages are created at one or both endpoints requesting re-transmissions,Engage in Deceptive Interactions,Send false messages,0.33,0,0
+45,Message fabrication: Traffic Connection Reset,Engage in Deceptive Interactions,Send false messages,0.33,0,0
+46,RPL network Local repair attack - attacker periodically sends local repair message- causing more overhead,Engage in Deceptive Interactions,Send false messages,0.33,0,0
+47,RPL network DIS attack - malicious node periodically sends DIS (DODAG information solicitation) messages,Engage in Deceptive Interactions,Send false messages,0.33,0,0
+48,Path Traversal,Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.75,0,0
+49,Alternate Encoding,Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.33,0,0
+50,SQL Injection,Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.9,0,0
+51,Cross-Site Scripting (XSS),Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.9,0,0
+52,Inserting malicious scripts,Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.9,0,0
+53,Format String Injection,Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.75,0,0
+54,Command Delimiters Injection (e.g. appending semicolons),Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.75,0,0
+55,Code injection,Engage in Deceptive Interactions,Inject Unexpected Input (Malformed Input Data),0.9,0,0
+56,Clickjacking,Engage in Deceptive Interactions,Action Spoofing,0.9,0,0
+57,Form hijacking,Engage in Deceptive Interactions,Action Spoofing,0.9,0,0
+58,Fake user dialog,Engage in Deceptive Interactions,Action Spoofing,0.9,0,0
+59,Oveflow Buffers,Manipulate Data Structures,Oveflow Buffers,0.5,0,0
+60,Shared Data Manipulation,Manipulate Data Structures,Shared Data Manipulation,0.5,0,0
+61,Pointer Manipulation,Manipulate Data Structures,Pointer Manipulation,0.5,0,0
+62,Integer Attacks (integer overflow),Manipulate Data Structures,Integer Attacks (integer overflow),0.5,0,0
+63,Data aggregation distortion,Manipulate Data Structures,Data aggregation distortion,0.33,0,0
+64,Transport flooding,Abuse Existing Functionality,Resource exhaustion,0.75,0,0
+65,Data link layer Resource exhaustion (continuous channel access),Abuse Existing Functionality,Resource exhaustion,0.75,0,0
+66,Internet smurf attack,Abuse Existing Functionality,Resource exhaustion,0.75,0,0
+67,Amplification attack,Abuse Existing Functionality,Resource exhaustion,0.75,0,0
+68,Overwhelm,Abuse Existing Functionality,Resource exhaustion,0.75,0,0
+69,Application flooding,Abuse Existing Functionality,Resource exhaustion,0.75,0,0
+70,Sleep deprivation,Abuse Existing Functionality,Resource exhaustion,0.33,0,0
+71,Inducing Account Lockout,Abuse Existing Functionality,Resource exhaustion,0.33,0,0
+72,Password Recovery Exploitation,Abuse Existing Functionality,Password Functionality Misuse,0.75,0,0
+73,Password Reset User Enumeration,Abuse Existing Functionality,Password Functionality Misuse,0.5,0,0
+74,Abuse code dissemination services,Abuse Existing Functionality,Abuse code dissemination services,0.75,0,0
+75,API Manipulation,Abuse Existing Functionality,API Manipulation,0.75,0,0
+76,Application Logic Flaws,Abuse Existing Functionality,Application Logic Flaws,0.75,0,0
+77,Authentication Abuse,Subvert Access Control (Unauthorized access),Authentication Abuse,0.95,0,0
+78,Authentication Bypass,Subvert Access Control (Unauthorized access),Authentication Bypass,0.75,0,0
+79,Accessing Functionality Not Properly Constrained by ACLs,Subvert Access Control (Unauthorized access),Privilege Abuse,0.95,0,0
+80,Exploiting Incorrectly Configured Access Control Security Levels,Subvert Access Control (Unauthorized access),Privilege Abuse,0.95,0,0
+81,Session Credential Falsification through Forging,Subvert Access Control (Unauthorized access),Exploitation of Trusted Credentials,0.75,0,0
+82,SaaS User Request Forgery,Subvert Access Control (Unauthorized access),Exploitation of Trusted Credentials,0.75,0,0
+83,Use of Known Domain Credentials,Subvert Access Control (Unauthorized access),Exploitation of Trusted Credentials,0.9,0,0
+84,Session Hijacking,Subvert Access Control (Unauthorized access),Exploitation of Trusted Credentials,0.75,0,0
+85,Cross Site Request Forgery,Subvert Access Control (Unauthorized access),Exploitation of Trusted Credentials,0.75,0,0
+86,Bypassing Physical Locks,Subvert Access Control (Unauthorized access),Bypassing Physical Security,0.33,0,0
+87,Bypassing Physical Access Controls,Subvert Access Control (Unauthorized access),Bypassing Physical Security,0.33,0,0
+88,Physical Theft,Subvert Access Control (Unauthorized access),Bypassing Physical Security,0.33,0,0
+89,Contaminate physical environment,Manipulate System Resources,Contaminate physical environment,0.33,0,0
+90,Cache Poisoning,Manipulate System Resources,Infrastructure Manipulation,0.75,0,0
+91,Logging Obstruction: Audit Log Manipulation,Manipulate System Resources,Infrastructure Manipulation,0.55,0,0
+92,Logging Obstruction: Block Logging to Central Repository,Manipulate System Resources,Infrastructure Manipulation,0.55,0,0
+93,Network Routing Obstruction: Selective forwarding (neglect and greed attack),Manipulate System Resources,Infrastructure Manipulation,0.5,0,0
+94,Network Routing Obstruction: Black hole attack,Manipulate System Resources,Infrastructure Manipulation,0.5,0,0
+95,Jamming/blocking communication: Spot jamming,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+96,Jamming/blocking communication: Sweep jamming,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+97,Jamming/blocking communication: Barrage jamming,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+98,Jamming/blocking communication: Deceptive jamming,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+99,Interference: Data Link Layer Collision,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+100,Interference: Data Link Layer Unfairness,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+101,Interference: Radio frequency interference,Manipulate System Resources,Infrastructure Manipulation,0.33,0,0
+102,Force the System to Reset Values,Manipulate System Resources,Configuration/Environment Manipulation,0.33,0,0
+103,KILL command - permanently disables device,Manipulate System Resources,Configuration/Environment Manipulation,0.33,0,0
+104,Data Injected During Configuration,Manipulate System Resources,Configuration/Environment Manipulation,0.75,0,0
+105,Manipulating Writeable Configuration Files,Manipulate System Resources,Configuration/Environment Manipulation,0.75,0,0
+106,Disable Security Software,Manipulate System Resources,Configuration/Environment Manipulation,0.75,0,0
+107,Programming modi cation/recon guration,Manipulate System Resources,Software Manipulation,0.82,0,0
+108,Malware/malicious code Inserted Into To Product Software,Manipulate System Resources,Software Manipulation,0.75,0,0
+109,Modify- insert- or delete data in processing and storage,Manipulate System Resources,Software Manipulation,0.75,0,0
+110,Physical removal- disabling- incapacitation- or destruction of device or Component,Manipulate System Resources,Hardware Tampering,0.33,0,0
+111,Physical data/circuitry modification,Manipulate System Resources,Hardware Tampering,0.33,0,0
+112,Malicious Hardware Component Update,Manipulate System Resources,Hardware Tampering,0.33,0,0
+113,RFID tag cloning,Manipulate System Resources,Hardware Tampering,0.33,0,0
+114,RFID tag swapping,Manipulate System Resources,Hardware Tampering,0.33,0,0

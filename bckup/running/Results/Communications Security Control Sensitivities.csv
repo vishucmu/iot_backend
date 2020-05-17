@@ -1,0 +1,10 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Ensure redundancy is available in case of IoT devices being unavailable.,0.106686,3,0.8
+Ensure web application firewall is enabled where available,0.0876141,3,0.8
+Perform security architecture and design exercise to identify security services to be installed and install identified security services.,0.0449844,2.5,0.8
+Apply jamming countermeasures,0.0374824,2.5,0.8
+Ensure all devices operate with a minimal number of network ports active,0.0276335,2,0.8
+Ensure all devices do not make network ports and/or services available to the internet,0.0276335,2,0.8
+Enable a firewall and ensure that it can only be accessed from your client systems,0.00764861,2.5,0.8
+Enable network segmentation technologies such as firewalls to isolate IoT systems from critical IT systems,0.00189746,2,0.8
+For products with multiple network interfaces -  the uncontrolled ability to forward IP packets between the interfaces is disabled.r,0.00076345,3,0.8

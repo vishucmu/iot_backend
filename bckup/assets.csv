@@ -1,0 +1,44 @@
+FIELD1,FIELD2,FIELD3,Threat Actor,State Sponsored (Nation State),Idealogically Motivated (Hacktivist),Financially Motivated
+Asset ID,Asset Name,Asset Category,Asset Subcategory,Asset Likelihood Score,Asset Likelihood Score,Asset Likelihood Score
+1,Publicly available information,Prior Information Gathered by attacker,Publicly available information,0.9,0,0
+2,Exposed networks sniffing: Remote,Prior Information Gathered by attacker,Surveillance gathered information,0.9,0,0
+3,Exposed networks sniffing: Proximity (wireless),Prior Information Gathered by attacker,Surveillance gathered information,0.33,0,0
+4,Exposed networks sniffing: In-network,Prior Information Gathered by attacker,Surveillance gathered information,0.33,0,0
+5,Physical observation: Distance observation,Prior Information Gathered by attacker,Surveillance gathered information,0.33,0,0
+6,Physical observation: Physical access,Prior Information Gathered by attacker,Surveillance gathered information,0.33,0,0
+7,Phishing / Social Engineering,Prior Information Gathered by attacker,Insider-supplied information,0.9,0,0
+8,Subverted insider (voluntary),Prior Information Gathered by attacker,Insider-supplied information,0.5,0,0
+9,Physical theft,Prior Information Gathered by attacker,Stolen information,0.33,0,0
+10,Information theft through other cyber attack,Prior Information Gathered by attacker,Stolen information,0.9,0,0
+11,Internet,Attacker location/access,Remote,0.95,0,0
+12,Cellular network,Attacker location/access,Remote,0.33,0,0
+13,RF network,Attacker location/access,Remote,0.33,0,0
+14,Wifi range,Attacker location/access,Wireless range,0.33,0,0
+15,Bluetooth range,Attacker location/access,Wireless range,0.33,0,0
+16,RF range,Attacker location/access,Wireless range,0.33,0,0
+17,Zigbee range,Attacker location/access,Wireless range,0.33,0,0
+18,6LoWPAN range,Attacker location/access,Wireless range,0.33,0,0
+19,LAN,Attacker location/access,Same network access,0.33,0,0
+20,Wireless network,Attacker location/access,Same network access,0.33,0,0
+21,Ad-hoc network (pairing),Attacker location/access,Same network access,0.33,0,0
+22,Insertion of removable media,Attacker location/access,Physical access,0.5,0,0
+23,Direct console access,Attacker location/access,Physical access,0.5,0,0
+24,Sensor manipulation,Attacker location/access,Physical access,0.5,0,0
+25,Insert tampered hardware,Attacker location/access,Physical access,0.5,0,0
+26,Compromised insider: Subverted user (voluntary),Attacker location/access,Physical access,0.5,0,0
+27,Compromised insider: Phishing / Social engineering (involuntary),Attacker location/access,Physical access,0.5,0,0
+28,IoT device,Adversary equipment,Commercial hardware equipment,0.75,0,0
+29,PC/electronics,Adversary equipment,Commercial hardware equipment,0.75,0,0
+30,IoT botnet,Adversary equipment,Distributed System,0.75,0,0
+31,Traditional PC botnet,Adversary equipment,Distributed System,0.75,0,0
+32,Specialized equipment or facilities,Adversary equipment,Specialized equipment or facilities,0.9,0,0
+33,Basic skills,Attacker technical skills,Basic skills,0.9,0,0
+34,General programming skills,Attacker technical skills,General programming skills,0.9,0,0
+35,Specific niche skills,Attacker technical skills,Specific niche skills,0.9,0,0
+36,Multiple advanced specific skills,Attacker technical skills,Multiple advanced specific skills,0.9,0,0
+37,Short,Time requirement,Short,0.5,0,0
+38,Long continuous period,Time requirement,Long continuous period,0.5,0,0
+39,Specific time slot,Time requirement,Specific time slot,0.5,0,0
+40,None (fire-and-forget attacks),Attack Persistence Requirements,None (fire-and-forget attacks),0.75,0,0
+41,Ability to adapt attack in response to detection,Attack Persistence Requirements,Ability to adapt attack in response to detection,0.75,0,0
+42,Ability to obfuscate attacker_��s actions,Attack Persistence Requirements,Ability to obfuscate attacker_��s actions,0.75,0,0

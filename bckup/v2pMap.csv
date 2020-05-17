@@ -1,0 +1,60 @@
+Vulnerability ID,Vulnerability Name,FIELD3,FIELD4,FIELD5,FIELD6,FIELD7,FIELD8,FIELD9,FIELD10,FIELD11,FIELD12,FIELD13,FIELD14,FIELD15,FIELD16,FIELD17,FIELD18,FIELD19,FIELD20,FIELD21,FIELD22,FIELD23,FIELD24,FIELD25
+1,Clear text traffic,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+2,Weak or broken encryption,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+3,Weak pseudo-random number generator,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+4,No session identifiers (session tokens- OTP- etc.),1,2,3,4,5,6,7,8,17,19,20,21,22,23,,,,,,,,,
+5,Lack of message integrity check (nonce- MACs- etc.),6,7,8,9,10,11,19,20,21,22,23,,,,,,,,,,,,
+6,Key and Token reuse,1,2,3,4,5,6,7,8,17,,,,,,,,,,,,,,
+7,Identity verification (e.g. certificate pinning),1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+8,Data is identifiable and not anonymized,1,2,,,,,,,,,,,,,,,,,,,,,
+9,Identification options and HTTP trace methods are enabled,1,2,3,4,5,13,14,15,,,,,,,,,,,,,,,
+10,Unchecked protocol parameters,1,2,3,4,5,13,14,15,19,20,21,22,23,,,,,,,,,,
+11,Non-standard protocol implementation,1,2,3,4,5,13,14,15,19,20,21,22,23,,,,,,,,,,
+12,Vulnerable protocol design,1,2,3,4,5,19,20,21,22,23,,,,,,,,,,,,,
+13,Application does not use SSL connection to cloud,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+14,Easy discovery of IoT devices on LAN,3,4,5,,,,,,,,,,,,,,,,,,,,
+15,No jamming countermeasures,13,14,15,19,20,21,22,23,,,,,,,,,,,,,,,
+16,Insuffcient backup DNS or IPs,13,14,15,,,,,,,,,,,,,,,,,,,,
+17,No alternative network infrastructure,13,14,15,19,20,21,22,23,,,,,,,,,,,,,,,
+18,No or insuffcient DDoS countermeasures,13,14,15,19,20,21,22,23,,,,,,,,,,,,,,,
+19,No enforcement or possibility of strong password,1,2,3,4,5,16,17,18,,,,,,,,,,,,,,,
+20,No mutual authentication between client and server,1,2,3,4,5,6,7,8,17,,,,,,,,,,,,,,
+21,No lock-out or delaying measures to protect accounts against brute-force attacks,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+22,No automatic session/logout timeout function,1,2,3,4,5,6,7,8,17,,,,,,,,,,,,,,
+23,No protection against account harvesting,3,4,5,,,,,,,,,,,,,,,,,,,,
+24,Unauthenticated requests to perform actions (ex. reconon- data retrieval- management functions- etc.)gurati,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+25,Ability to perform unrequested rmware upgrades,1,2,3,4,5,9,10,11,12,16,17,18,19,20,21,22,23,,,,,,
+26,Cloud interface does not support two-factor authentication,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+27,Cloud platform contains common web application/management console vulnerabilities,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+28,Security audit vulnerabilities - security audit functions miss,9,10,11,,,,,,,,,,,,,,,,,,,,
+29,No redundancy of storage or service,13,14,15,19,20,21,22,23,,,,,,,,,,,,,,,
+30,Some security features are left unenabled,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+31,No authentication,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+32,Weak or default passwords,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+33,Hardcoded security information,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+34,Unsafe password recovery procedure,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+35,Programming modification/reconfiguration,1,2,3,4,5,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,,,
+36,No lock-out or delaying measures to protect accounts against brute-force attacks,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+37,Existence of a kill command that permanently disables device,13,14,15,19,20,21,22,23,,,,,,,,,,,,,,,
+38,Ignoring certificate revocation lists,6,7,9,10,11,19,20,21,22,23,,,,,,,,,,,,,
+39,Unchecked resource buffers,1,2,3,4,5,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,,,
+40,Insecure 3rd party APIs,1,2,3,4,5,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,,,
+41,Unencrypted local storage,1,2,3,4,5,9,10,11,12,15,16,,,,,,,,,,,,
+42,Administration interface contains common web application/management console vulnerabilities,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+43,Unnecessary privileges,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+44,Exposed services on open ports,1,2,3,4,5,,,,,,,,,,,,,,,,,,
+45,Unnecessary or unused services and applications,1,2,3,4,5,9,10,11,13,14,15,16,17,18,19,20,21,22,23,,,,
+46,Insecure boot process,1,2,3,4,5,9,10,11,13,14,15,16,17,18,19,20,21,22,23,,,,
+47,No update mechanism,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+48,No automated update mechanism,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+49,No manual update mechanism,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+50,No encryption on all updates,3,4,,,,,,,,,,,,,,,,,,,,,
+51,No integrity check on all updates,6,7,8,9,10,11,,,,,,,,,,,,,,,,,
+52,No authenticity check on all updates,6,7,8,9,10,11,,,,,,,,,,,,,,,,,
+53,No physical security (i.e. physical barriers- locks or access controls),1,2,3,4,5,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,,,
+54,No hardware tamper protection,1,2,3,4,5,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,,,
+55,No control of sensor environment (e.g. can blind a camera- or put a heat source in front of a temperature sensor),6,7,8,13,14,15,19,20,21,22,23,,,,,,,,,,,,
+56,Removable media,1,2,3,4,5,9,10,11,12,13,14,15,16,18,19,20,21,22,23,,,,
+57,Reset switch leading to insecure state,9,13,14,15,16,17,18,19,20,21,22,23,,,,,,,,,,,
+58,In production or integration supply chain (i.e. use of faulty component),1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+59,In deployment infrastructure (i.e. power failure),1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23

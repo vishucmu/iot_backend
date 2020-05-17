@@ -1,0 +1,74 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Ensure updates can be verified -  downloaded securely and applied quickly when vulnerabilities are discovered,0.329175,2.5,0.8
+Schedule and implement periodic updatesr,0.238137,2.5,0.8
+The access control privileges are defined -  justified and documented.,0.133745,2.5,0.8
+Delete unnecessary applications on IoT devices,0.111363,2,0.8
+Delete unused services on IoT devices,0.111363,2,0.8
+Conduct periodic web application penetration testing assessments for web interfaces and ensure a web application penetration testing assessment test has been conducted before deployment,0.108751,2,0.8
+Ensure redundancy is available in case of IoT devices being unavailable.,0.106686,3,0.8
+All the applicable security features supported by the OS are enabled.r,0.0985327,2,0.8
+Ensure HTTPS is enabled,0.0941305,3,0.8
+Ensure web application firewall is enabled where available,0.0876141,3,0.8
+Ensure web application firewall is enabled where available,0.0868506,3,0.8
+Maintain devices to ensure integrity and availability,0.0829974,3,0.8
+Where a product includes a trusted secure boot process -  the entire production test and any related calibration is executed with the processor system operating in its secured boot -  authenticated software mode.,0.0796586,3,0.8
+Perform application whitelisting,0.072687,2.5,0.8
+Monitor and review supplier services,0.0723605,2,0.8
+Manage changes with suppliers,0.0723605,2,0.8
+Identify and address risks while dealing with third parties through agreements,0.0723605,2,0.8
+A vulnerability assessment has been performed before deployment and on an ongoing basis afterwards.,0.0722849,2,0.8
+Enable physical protection against tampering and reverse engineering,0.0622481,2,0.8
+Check to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal. ,0.061592,2.5,0.8
+Change the default password to a strong one and if possible change the default username as well,0.0607872,2,0.8
+Enable account lockout functionality where available,0.055816,3,0.8
+Ensure two factor authentication is enabled where available ,0.055194,1,0.8
+Disable any unused physical ports,0.053893,2,0.8
+All communications port(s) -  such as USB -  RS232 etc. -  which are not used as part of the product_ normal operation are not physically accessible or are disabled. ,0.053893,2,0.8
+Ensure SSL/TLS implementations are up to date and properly configured,0.0531584,3,0.8
+Conduct periodic network penetration testing assessments or red team exercises,0.0524979,2.5,0.8
+Ensure all collected personal data is properly protected using encryption at rest and in transit,0.0512091,2.5,0.8
+Monitor the network continuously,0.0481801,2.5,0.8
+Perform security architecture and design exercise to identify security services to be installed and install identified security services.,0.0449844,2.5,0.8
+Apply physical protection measures against environmental threats,0.043114,4,0.8
+There is a process for secure provisioning of keys that includes generation -  distribution -  revocation and destruction. For example in compliance with FIPS140-2 [ref 5] or similar process. ,0.0405405,2.5,0.8
+Apply physical access controls to prevent unauthorized access to IoT devices,0.040099,2,0.8
+Apply jamming countermeasures,0.0374824,2.5,0.8
+Enable making a periodic change of passwords mandatory (for example the duration could be 90 days),0.031863,2,0.8
+Mandate permission prior to taking devices off-site or moving devices between locations,0.0287427,3,0.8
+Ensure all devices operate with a minimal number of network ports active,0.0276335,2,0.8
+Ensure all devices do not make network ports and/or services available to the internet,0.0276335,2,0.8
+Ensure all communication between system components is encrypted as well as encrypting traffic between the system or device and the internet,0.0220935,2.5,0.8
+Passwords file(s) are owned by and are only accessible to and writable by the most privileged account. ,0.0130833,3,0.8
+The production software signing keys are under access control.r,0.0113504,2,0.8
+Limit administrative capabilities,0.0112142,2.5,0.8
+All the related and network elements servers prevent anonymous/guest access except for read only access to public information.,0.0112142,2.5,0.8
+The product only allows controlled user account access; access using anonymous or guest user accounts are not supported without justification.,0.0112142,2.5,0.8
+Set user privileges to the minimal needed for operation,0.00981244,2,0.8
+Files and directories are set to appropriate access privileges on a need to access basis.,0.00981244,2,0.8
+Access granted to employees is periodically reviewed.,0.00981244,2,0.8
+In the event that the product is intended to allow un-authenticated software -  such software should only be run with limited permissions and/or sandbox.r,0.00834107,2,0.8
+Enable a firewall and ensure that it can only be accessed from your client systems,0.00764861,2.5,0.8
+Enable a firewall and ensure that it can only be accessed from your client systems,0.00699422,2.5,0.8
+Enable any alert and notification functionality for security-related events,0.00449178,3,0.8
+Enable any logging functionality for security-related events,0.00449178,3,0.8
+Protect log information from tampering,0.0038501,2.5,0.8
+Enable network segmentation technologies such as firewalls to isolate IoT systems from critical IT systems,0.00189746,2,0.8
+All interactive operating system accounts or logins have been disabled.,0.00147138,2,0.8
+For products with multiple network interfaces -  the uncontrolled ability to forward IP packets between the interfaces is disabled.r,0.00076345,3,0.8
+Organization of information security (roles and responsibilities to ensure information security) is defined for the consumer.,6.71867e-05,3,0.8
+Ensure periodic third-party audits are conducted.,6.71867e-05,3,0.8
+Collect data only if it has business-use or is essential to the functioning of the IoT device,6.71867e-05,3,0.8
+A process is in place for consistent briefing of senior executives in the event of the identification of a vulnerability or a security breach -  especially those who may deal with the media or make public announcements. In particular that any public statements made in the event of a security breach -  should give as full and accurate account of the facts as possible.,6.71867e-05,3,0.8
+Ensure asset owners check/verify what data is collected and delete data if necessary.r,6.71867e-05,3,0.8
+Ensure business continuity disaster recovery plans exist and are tested regularly.,6.71867e-05,3,0.8
+Ensure that asset owners are informed about what data is collected -  why -  where it will be stored. ,6.71867e-05,3,0.8
+Ensure compliance with relevant laws and regulations.,6.71867e-05,3,0.8
+Whenever there is collection of data -  a privacy and acceptance notice must be acknowledged by the entity prior to providing the data. This notice must state the company's policy on data collection -  usage -  and retention.,6.71867e-05,3,0.8
+Ensure periodic internal audits are conducted.,6.71867e-05,3,0.8
+Use data only with prior permission of all interested parties.,6.71867e-05,3,0.8
+Retain data for only as long as necessary.,5.75886e-05,2.5,0.8
+A policy has been established for dealing with both internal and third party security research on the products or services.,5.75886e-05,2.5,0.8
+There are documented information security policies and procedures based on accepted standards -  guidelines -  and other documentation. Required policies for IoT include policies on asset management -  access control -  physical security -  communications security -  systems security -  incident management -  business continuity and compliance. Required procedures for IoT include procedures on patch management -  exception management -  change management -  incident managment -  access control managment (user activation/deactivation and privilege management).,5.75886e-05,2.5,0.8
+There is a secure notification process based upon the IoTSF _ Vulnerability Disclosure Guidelines_ or similar recognised process -  for notifying partners/ users of any security updates.,5.75886e-05,2.5,0.8
+There is a role -  typically a board level executive -  who takes ownership of and is responsible for product -  service and business level security.,5.039e-05,2,0.8
+Apply jamming countermeasures,0,2.5,0.8

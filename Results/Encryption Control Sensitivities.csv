@@ -1,0 +1,6 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Ensure HTTPS is enabled,0.0941305,3,0.8
+Ensure SSL/TLS implementations are up to date and properly configured,0.0531584,3,0.8
+Ensure all collected personal data is properly protected using encryption at rest and in transit,0.0512091,2.5,0.8
+There is a process for secure provisioning of keys that includes generation -  distribution -  revocation and destruction. For example in compliance with FIPS140-2 [ref 5] or similar process. ,0.0405405,2.5,0.8
+Ensure all communication between system components is encrypted as well as encrypting traffic between the system or device and the internet,0.0220935,2.5,0.8

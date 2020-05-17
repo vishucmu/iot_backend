@@ -1,0 +1,9 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Maintain devices to ensure integrity and availability,0.0829974,3,0.8
+Enable physical protection against tampering and reverse engineering,0.0622481,2,0.8
+Check to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal. ,0.061592,2.5,0.8
+Disable any unused physical ports,0.053893,2,0.8
+All communications port(s) -  such as USB -  RS232 etc. -  which are not used as part of the product_ normal operation are not physically accessible or are disabled. ,0.053893,2,0.8
+Apply physical protection measures against environmental threats,0.043114,4,0.8
+Apply physical access controls to prevent unauthorized access to IoT devices,0.040099,2,0.8
+Mandate permission prior to taking devices off-site or moving devices between locations,0.0287427,3,0.8

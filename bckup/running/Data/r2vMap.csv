@@ -1,0 +1,10 @@
+Risk ID,Risk Name,FIELD3,FIELD4,FIELD5,FIELD6,FIELD7,FIELD8,FIELD9,FIELD10,FIELD11,FIELD12,FIELD13,FIELD14,FIELD15
+1,Encryption,1,2,6,13,38,41,,,,,,,
+2,Communications Security,14,15,16,17,18,23,27,29,30,42,44,,
+3,Event Logging and Monitoring,18,23,24,30,,,,,,,,,
+4,Identity and Access Management,2,18,19,21,23,24,26,31,32,35,36,40,43
+5,Threat and Vulnerability Management,18,25,27,28,30,40,42,47,48,49,,,
+6,Systems Security,8,9,14,27,30,35,42,43,45,46,,,
+7,Governance and Accountability,,,,,,,,,,,,,
+8,Physical Security,53,54,55,56,,,,,,,,,
+9,Supplier Security,58,59,,,,,,,,,,,

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/iot_risk_assessment.dir/home/vishwas/RA_work/prod_workspace/IOT_analytics_framework/IOTRiskAssessmentFramework/IOTRiskAssessment/main.cpp.o  -o iot_risk_assessment libbluenotebook.a 

@@ -1,0 +1,24 @@
+Property ID,Proprety Name,High Level,Low Level,Impact Score
+1,Sensitive personal information disclosure (e.g. medical condition),Confidentiality breach,Privacy breach,30
+2,Identity theft (e.g. SSN and CC number),Confidentiality breach,Privacy breach,50
+3,Operational data disclosure (e.g. hours of operation),Confidentiality breach,Secrecy breach,10
+4,Guarded data disclosure (e.g. pre-release leakage),Confidentiality breach,Secrecy breach,30
+5,Proprietary data disclosure (e.g. industrial secrets),Confidentiality breach,Secrecy breach,70
+6,Origin spoofing,Integrity breach,Message integrity breach,15
+7,Payload corruption,Integrity breach,Message integrity breach,40
+8,Message replay,Integrity breach,Message integrity breach,10
+9,Deleted contents,Integrity breach,Stored data corruption,30
+10,Modified contents,Integrity breach,Stored data corruption,30
+11,Created contents,Integrity breach,Stored data corruption,30
+12,Loss of Accounting capabilities,Integrity breach,Loss of Accounting capabilities,30
+13,Inability to receive input,Loss of Availability,Inability to receive input,30
+14,Inability to process,Loss of Availability,Inability to process,30
+15,Inability to output,Loss of Availability,Inability to output,30
+16,Computational resources misuse,Authorization breach,Computational resources misuse,20
+17,Communications resources misuse,Authorization breach,Communications resources misuse,30
+18,Complete take-over,Authorization breach,Complete take-over,40
+19,Injury,Safety breach,Human harm,40
+20,Death,Safety breach,Human harm,70
+21,Damage to Critical Infrastructure,Safety breach,Material damage,60
+22,Damage to connected equipment or facilities,Safety breach,Material damage,40
+23,Damage to device,Safety breach,Material damage,30

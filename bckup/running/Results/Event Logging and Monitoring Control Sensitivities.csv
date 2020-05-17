@@ -1,0 +1,5 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Monitor the network continuously,0.0481801,2.5,0.8
+Enable any logging functionality for security-related events,0.00449178,3,0.8
+Enable any alert and notification functionality for security-related events,0.00449178,3,0.8
+Protect log information from tampering,0.0038501,2.5,0.8

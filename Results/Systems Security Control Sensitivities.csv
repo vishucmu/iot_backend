@@ -1,0 +1,9 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Delete unused services on IoT devices,0.111363,2,0.8
+Delete unnecessary applications on IoT devices,0.111363,2,0.8
+All the applicable security features supported by the OS are enabled.r,0.0985327,2,0.8
+Ensure web application firewall is enabled where available,0.0868506,3,0.8
+Where a product includes a trusted secure boot process -  the entire production test and any related calibration is executed with the processor system operating in its secured boot -  authenticated software mode.,0.0796586,3,0.8
+Perform application whitelisting,0.072687,2.5,0.8
+In the event that the product is intended to allow un-authenticated software -  such software should only be run with limited permissions and/or sandbox.r,0.00834107,2,0.8
+Enable a firewall and ensure that it can only be accessed from your client systems,0.00699422,2.5,0.8

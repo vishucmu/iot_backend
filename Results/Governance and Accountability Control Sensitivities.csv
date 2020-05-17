@@ -1,0 +1,17 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+Collect data only if it has business-use or is essential to the functioning of the IoT device,6.71867e-05,3,0.8
+Use data only with prior permission of all interested parties.,6.71867e-05,3,0.8
+Organization of information security (roles and responsibilities to ensure information security) is defined for the consumer.,6.71867e-05,3,0.8
+A process is in place for consistent briefing of senior executives in the event of the identification of a vulnerability or a security breach -  especially those who may deal with the media or make public announcements. In particular that any public statements made in the event of a security breach -  should give as full and accurate account of the facts as possible.,6.71867e-05,3,0.8
+Ensure compliance with relevant laws and regulations.,6.71867e-05,3,0.8
+Ensure periodic internal audits are conducted.,6.71867e-05,3,0.8
+Ensure periodic third-party audits are conducted.,6.71867e-05,3,0.8
+Ensure that asset owners are informed about what data is collected -  why -  where it will be stored. ,6.71867e-05,3,0.8
+Ensure asset owners check/verify what data is collected and delete data if necessary.r,6.71867e-05,3,0.8
+Ensure business continuity disaster recovery plans exist and are tested regularly.,6.71867e-05,3,0.8
+Whenever there is collection of data -  a privacy and acceptance notice must be acknowledged by the entity prior to providing the data. This notice must state the company's policy on data collection -  usage -  and retention.,6.71867e-05,3,0.8
+Retain data for only as long as necessary.,5.75886e-05,2.5,0.8
+There are documented information security policies and procedures based on accepted standards -  guidelines -  and other documentation. Required policies for IoT include policies on asset management -  access control -  physical security -  communications security -  systems security -  incident management -  business continuity and compliance. Required procedures for IoT include procedures on patch management -  exception management -  change management -  incident managment -  access control managment (user activation/deactivation and privilege management).,5.75886e-05,2.5,0.8
+A policy has been established for dealing with both internal and third party security research on the products or services.,5.75886e-05,2.5,0.8
+There is a secure notification process based upon the IoTSF _ Vulnerability Disclosure Guidelines_ or similar recognised process -  for notifying partners/ users of any security updates.,5.75886e-05,2.5,0.8
+There is a role -  typically a board level executive -  who takes ownership of and is responsible for product -  service and business level security.,5.039e-05,2,0.8

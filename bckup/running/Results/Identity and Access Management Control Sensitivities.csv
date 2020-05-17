@@ -1,0 +1,15 @@
+Control,Residual Risk Reduction,Control Implementation Score,Control Effectiveness Score
+The access control privileges are defined -  justified and documented.,0.133745,2.5,0.8
+Change the default password to a strong one and if possible change the default username as well,0.0607872,2,0.8
+Enable account lockout functionality where available,0.055816,3,0.8
+Ensure two factor authentication is enabled where available ,0.055194,1,0.8
+Enable making a periodic change of passwords mandatory (for example the duration could be 90 days),0.031863,2,0.8
+Passwords file(s) are owned by and are only accessible to and writable by the most privileged account. ,0.0130833,3,0.8
+The production software signing keys are under access control.r,0.0113504,2,0.8
+Limit administrative capabilities,0.0112142,2.5,0.8
+The product only allows controlled user account access; access using anonymous or guest user accounts are not supported without justification.,0.0112142,2.5,0.8
+All the related and network elements servers prevent anonymous/guest access except for read only access to public information.,0.0112142,2.5,0.8
+Set user privileges to the minimal needed for operation,0.00981244,2,0.8
+Files and directories are set to appropriate access privileges on a need to access basis.,0.00981244,2,0.8
+Access granted to employees is periodically reviewed.,0.00981244,2,0.8
+All interactive operating system accounts or logins have been disabled.,0.00147138,2,0.8

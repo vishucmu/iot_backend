@@ -1,0 +1,5 @@
+Device ID,Device Name,Device Class,Device Subclass,Device Prevalency Score
+1,Device 1,Class 0,N/A,0
+2,Device 2,Class 1,N/A,0
+3,Device 3,Class 2,N/A,0
+4,Device 4,Workstation/Server,N/A,0

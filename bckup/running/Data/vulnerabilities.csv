@@ -1,0 +1,60 @@
+Vulnerability ID,Vulnerability Name,Attack Layer,Vulnerability Category,Vulnerability Prevalency Score
+1,Clear text traffic,Communications,Traffic Encryption,1
+2,Weak or broken encryption,Communications,Traffic Encryption,1
+3,Weak pseudo-random number generator,Communications,Traffic Encryption,1
+4,No session identifiers (session tokens- OTP- etc.),Communications,Traffic authenticity,1
+5,Lack of message integrity check (nonce- MACs- etc.),Communications,Traffic authenticity,1
+6,Key and Token reuse,Communications,Traffic authenticity,1
+7,Identity verification (e.g. certificate pinning),Communications,Traffic authenticity,1
+8,Data is identifiable and not anonymized,Communications,Privacy,1
+9,Identification options and HTTP trace methods are enabled,Communications,Privacy,1
+10,Unchecked protocol parameters,Communications,Protocol,1
+11,Non-standard protocol implementation,Communications,Protocol,1
+12,Vulnerable protocol design,Communications,Protocol,1
+13,Application does not use SSL connection to cloud,Communications,Protocol,1
+14,Easy discovery of IoT devices on LAN,Communications,Protocol,1
+15,No jamming countermeasures,Communications,Traffic Obstruction,1
+16,Insuffcient backup DNS or IPs,Communications,Traffic Obstruction,1
+17,No alternative network infrastructure,Communications,Traffic Obstruction,1
+18,No or insuffcient DDoS countermeasures,Communications,Traffic Obstruction,1
+19,No enforcement or possibility of strong password,Software,Cloud/remote control and storage interface/services vulnerability,1
+20,No mutual authentication between client and server,Software,Cloud/remote control and storage interface/services vulnerability,1
+21,No lock-out or delaying measures to protect accounts against brute-force attacks,Software,Cloud/remote control and storage interface/services vulnerability,1
+22,No automatic session/logout timeout function,Software,Cloud/remote control and storage interface/services vulnerability,1
+23,No protection against account harvesting,Software,Cloud/remote control and storage interface/services vulnerability,1
+24,Unauthenticated requests to perform actions (ex. reconon- data retrieval- management functions- etc.) gurati,Software,Cloud/remote control and storage interface/services vulnerability,1
+25,Ability to perform unrequested rmware upgrades,Software,Cloud/remote control and storage interface/services vulnerability,1
+26,Cloud interface does not support two-factor authentication,Software,Cloud/remote control and storage interface/services vulnerability,1
+27,Cloud platform contains common web application/management console vulnerabilities,Software,Cloud/remote control and storage interface/services vulnerability,1
+28,Security audit vulnerabilities - security audit functions miss,Software,Cloud/remote control and storage interface/services vulnerability,1
+29,No redundancy of storage or service,Software,Cloud/remote control and storage interface/services vulnerability,1
+30,Some security features are left unenabled,Software,Cloud/remote control and storage interface/services vulnerability,1
+31,No authentication,Software,Embedded software vulnerability,1
+32,Weak or default passwords,Software,Embedded software vulnerability,1
+33,Hardcoded security information,Software,Embedded software vulnerability,1
+34,Unsafe password recovery procedure,Software,Embedded software vulnerability,1
+35,Programming modification/reconfiguration,Software,Embedded software vulnerability,1
+36,No lock-out or delaying measures to protect accounts against brute-force attacks,Software,Embedded software vulnerability,1
+37,Existence of a kill command that permanently disables device,Software,Embedded software vulnerability,1
+38,Ignoring certificate revocation lists,Software,Embedded software vulnerability,1
+39,Unchecked resource buffers,Software,Embedded software vulnerability,1
+40,Insecure 3rd party APIs,Software,Embedded software vulnerability,1
+41,Unencrypted local storage,Software,Embedded software vulnerability,1
+42,Administration interface contains common web application/management console vulnerabilities,Software,Embedded software vulnerability,1
+43,Unnecessary privileges,Software,Embedded software vulnerability,1
+44,Exposed services on open ports,Software,Embedded software vulnerability,1
+45,Unnecessary or unused services and applications,Software,Embedded software vulnerability,1
+46,Insecure boot process,Software,Embedded software vulnerability,1
+47,No update mechanism,Software,Update mechanism vulnerability,1
+48,No automated update mechanism,Software,Update mechanism vulnerability,1
+49,No manual update mechanism,Software,Update mechanism vulnerability,1
+50,No encryption on all updates,Software,Update mechanism vulnerability,1
+51,No integrity check on all updates,Software,Update mechanism vulnerability,1
+52,No authenticity check on all updates,Software,Update mechanism vulnerability,1
+53,No physical security (i.e. physical barriers- locks or access controls),Hardware,Hardware,1
+54,No hardware tamper protection,Hardware,Hardware,1
+55,No control of sensor environment (e.g. can blind a camera- or put a heat source in front of a temperature sensor),Hardware,Hardware,1
+56,Removable media,Hardware,Hardware,1
+57,Reset switch leading to insecure state,Hardware,Hardware,1
+58,In production or integration supply chain (i.e. use of faulty component),Hardware,Hardware,1
+59,In deployment infrastructure (i.e. power failure),Hardware,Hardware,1

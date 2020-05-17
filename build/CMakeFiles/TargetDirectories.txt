@@ -1,0 +1,4 @@
+/home/vishwas/RA_work/prod_workspace/IOT_analytics_framework/IOTRiskAssessmentFramework/build/CMakeFiles/edit_cache.dir
+/home/vishwas/RA_work/prod_workspace/IOT_analytics_framework/IOTRiskAssessmentFramework/build/CMakeFiles/rebuild_cache.dir
+/home/vishwas/RA_work/prod_workspace/IOT_analytics_framework/IOTRiskAssessmentFramework/build/CMakeFiles/bluenotebook.dir
+/home/vishwas/RA_work/prod_workspace/IOT_analytics_framework/IOTRiskAssessmentFramework/build/CMakeFiles/iot_risk_assessment.dir
